@@ -1,0 +1,6 @@
+[error] /home/april/hw/lab_1/csci3155_s20_project1/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:89:36: type mismatch;
+[error]  found   : String
+[error]  required: String => Boolean
+[error]                if(!env.keys.exists(str)){
+[error]                                    ^
+[error] one error found

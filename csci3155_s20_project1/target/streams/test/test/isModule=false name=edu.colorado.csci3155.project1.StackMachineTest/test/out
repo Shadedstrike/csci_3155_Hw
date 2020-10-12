@@ -1,0 +1,7 @@
+[info] StackMachineTest:
+[info] - stack machine test 1
+[info] - stack machine test 2
+[info] - stack machine test 3
+[info] - stack machine test 4
+[info] - stack machine test 5 *** FAILED ***
+[info]   0.2722105831863981 was not less than or equal to 1.0E-4 (StackMachineTest.scala:58)
