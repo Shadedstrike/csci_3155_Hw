@@ -18,6 +18,7 @@ case object PopI extends StackMachineInstruction
 
 
 object StackMachineEmulator {
+    //@tailrec
 
 
     /* Function emulateSingleInstruction
@@ -34,6 +35,8 @@ object StackMachineEmulator {
      */
 
     def isWellFormed_unaryOp(stack: List[Double], op: Double => Double): List[Double]   = {
+
+
         if(stack.length < 1){ throw new IllegalArgumentException()}
         val result = op(stack(0)) //first step for unary op, get the first element of the stack
 
@@ -67,13 +70,15 @@ object StackMachineEmulator {
         //check that things are valid, then => to the operation on the list of stack
         ins match {
             case LoadI(str) => {
+
                 if(str.length() == 0){
                     throw new IllegalArgumentException()
                 }
 
                 val v = stack.head;
                 val ins1 = PopI;
-                val env2 = env + (str -> v)
+                val env2 = env + (str -> v) //this is a case, and not a function. As such, it does not need the @tailrec, though it is tail recursive
+
                 return emulateSingleInstruction(stack, env2, ins1)
             }
             case StoreI(str) => {
@@ -88,6 +93,8 @@ object StackMachineEmulator {
 
                 val x = env(str)
                 val ins1 = PushI(x)
+
+
                 return emulateSingleInstruction(stack, env, ins1)
             }
             case PushI(d) => {

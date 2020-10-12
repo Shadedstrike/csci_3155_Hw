@@ -83,6 +83,4 @@ class CompilerTest extends FunSuite {
         val fenv = StackMachineEmulator.emulateStackMachine(lst ++ List(LoadI("result")))
         assert(math.abs(fenv("result") - 4.0) <= 1E-05)
     }
-
-
 }
