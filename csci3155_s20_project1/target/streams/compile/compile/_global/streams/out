@@ -1,6 +1,4 @@
-[error] /home/april/hw/lab_1/csci3155_s20_project1/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:89:36: type mismatch;
-[error]  found   : String
-[error]  required: String => Boolean
-[error]                if(!env.keys.exists(str)){
-[error]                                    ^
+[error] /home/april/hw/lab_1/csci_3155_Hw/csci3155_s20_project1/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:125:71: ';' expected but ')' found.
+[error]                 val newStack = isWellFormed_binOp(stack, (x,y) => y/x)) //return a nd  update the stack
+[error]                                                                       ^
 [error] one error found

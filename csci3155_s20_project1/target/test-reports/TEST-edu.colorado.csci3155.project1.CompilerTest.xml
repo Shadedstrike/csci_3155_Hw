@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="april-dell" name="edu.colorado.csci3155.project1.CompilerTest" tests="8" errors="0" failures="8" skipped="0" time="0.022" timestamp="2020-10-11T18:17:28">
+<testsuite hostname="april-dell" name="edu.colorado.csci3155.project1.CompilerTest" tests="8" errors="0" failures="8" skipped="0" time="0.05" timestamp="2020-10-11T19:01:43">
                      <properties>
       <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/april/.cache/JetBrains/IntelliJIdea2020.2/sbtexe/sbt-launch-1.3.9.jar test exit"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2020-07-14"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
-"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.8+10-post-Ubuntu-0ubuntu118.04.1"/><property name="user.name" value="april"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.8"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/home/april/.cache/JetBrains/IntelliJIdea2020.2/sbtexe/sbt-launch-1.3.9.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/Denver"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/april"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="/home/april/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.4.0-48-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sbt.log.noformat" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/april/hw/lab_1/csci3155_s20_project1"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.8+10-post-Ubuntu-0ubuntu118.04.1"/><property name="java.class.version" value="55.0"/>
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.8+10-post-Ubuntu-0ubuntu118.04.1"/><property name="user.name" value="april"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.8"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/home/april/.cache/JetBrains/IntelliJIdea2020.2/sbtexe/sbt-launch-1.3.9.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/Denver"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/april"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="/home/april/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.4.0-48-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sbt.log.noformat" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/april/hw/lab_1/csci_3155_Hw/csci3155_s20_project1"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.8+10-post-Ubuntu-0ubuntu118.04.1"/><property name="java.class.version" value="55.0"/>
     </properties>
-                     <testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="simple expression 1" time="0.015">
+                     <testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="simple expression 1" time="0.03">
                                                  <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
 	at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:14)
@@ -66,7 +66,7 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
-                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="simple expression 2" time="0.001">
+                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="simple expression 2" time="0.002">
                                                  <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
 	at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:14)
@@ -190,7 +190,7 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
-                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="simple expression 4" time="0.001">
+                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="simple expression 4" time="0.004">
                                                  <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
 	at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:14)
@@ -252,7 +252,7 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
-                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="LetBinding + Ident Test 1" time="0.001">
+                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="LetBinding + Ident Test 1" time="0.003">
                                                  <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
 	at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:14)
@@ -314,7 +314,7 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
-                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="LetBinding + Ident Test 2" time="0.001">
+                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="LetBinding + Ident Test 2" time="0.004">
                                                  <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
 	at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:14)
@@ -376,7 +376,7 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
-                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="LetBinding + Ident Test 3" time="0.001">
+                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="LetBinding + Ident Test 3" time="0.003">
                                                  <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
 	at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:14)
@@ -438,7 +438,7 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
-                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="LetBinding + Ident Test 4" time="0.0">
+                                               </testcase><testcase classname="edu.colorado.csci3155.project1.CompilerTest" name="LetBinding + Ident Test 4" time="0.002">
                                                  <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
 	at edu.colorado.csci3155.project1.StackMachineCompiler$.compileToStackMachineCode(StackMachineCompiler.scala:14)

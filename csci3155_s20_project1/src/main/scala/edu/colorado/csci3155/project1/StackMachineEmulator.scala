@@ -37,7 +37,6 @@ object StackMachineEmulator {
         if(stack.length < 1){ throw new IllegalArgumentException()}
         val result = op(stack(0)) //first step for unary op, get the first element of the stack
 
-
         val newStack =  result :: stack.drop(1) //stick on the stack
         return newStack
     }
@@ -48,7 +47,6 @@ object StackMachineEmulator {
         val result = op(stack(0),  stack(1)) //first step for unary op, get the first element of the stack
                                                 //for binary opp, get two elements from stack, then operate on them, then return
                                                 // push results onto stack
-
         val newStack = result::stack.drop(2) //stick on the stack
         return newStack
     }
@@ -60,7 +58,7 @@ object StackMachineEmulator {
                                  ins: StackMachineInstruction): (List[Double], Map[String, Double]) = {
 
 
-        val valid = stack.length
+        //val valid = stack.length
         //  if(valid == 0 or valid == -1){ //check for validity
         //      throw new IllegalAccessException()
         //  }
@@ -72,9 +70,7 @@ object StackMachineEmulator {
                 if(str.length() == 0){
                     throw new IllegalArgumentException()
                 }
-                //if(stack.length == 0){
-                //    throw new IllegalArgumentException()
-               // }
+
                 val v = stack.head;
                 val ins1 = PopI;
                 val env2 = env + (str -> v)
@@ -126,7 +122,7 @@ object StackMachineEmulator {
             }
 
             case DivI => {
-                val newStack = isWellFormed_binOp(stack, _/_) //return a nd  update the stack
+                val newStack = isWellFormed_binOp(stack, (x,y) => y/x) //return a nd  update the stack
                 return (newStack, env)
             } //same as sub, but just division instead
 
@@ -136,12 +132,11 @@ object StackMachineEmulator {
             }
 
             case SubI => {
-                val newStack = isWellFormed_binOp(stack, _-_) //return a nd  update the stack
+                val newStack = isWellFormed_binOp(stack,(x,y) => y-x) //return a nd  update the stack
                 return (newStack, env)
             }
 
             case AddI => {
-
                 val newStack = isWellFormed_binOp(stack, _+_) //return a nd  update the stack
                 return (newStack, env)
             }
